@@ -1,5 +1,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
 <script>
+  var socket = io('http://mc.pcgaming.com:85');
+  
+  alert(socket);
+  
   function submit(){
     var username = document.getElementById("username").value;
   }
