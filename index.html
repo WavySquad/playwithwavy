@@ -1,13 +1,8 @@
-<script src="socketio.js"></script>
-<script>
-  var socket = io.connect('https://server.wavysquad.tk:85');
-  
-  alert(socket);
-  
-  function submit(){
-    var username = document.getElementById("username").value;
-  }
-</script>
 <h1>Play With Wavy</h1>
-Usename: <input type="text" id="username">
-<input type="submit" onclick="submit();">
+<h1>Request To Play</h1>
+<iframe src="http://server.wavysquad.tk:85/playwithwavy" height="700" width="700"></iframe>
+<br />
+<br />
+<br />
+<h1>View list of people who want to play</h1>
+<iframe src="http://server.wavysquad.tk:85/playwithwavy-list" height="700" width="700"></iframe>
